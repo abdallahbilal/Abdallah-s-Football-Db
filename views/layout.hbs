@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <header class="Header">
+      <h1 class="MainTitle">Abdallah's Football Database</h1>
+
+        <nav>
+        <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/teams">Teams</a></li>
+         {{#if user}}
+            <li class="nav-item"><a class="nav-link" href="#">{{user.username}}</a></li>
+            <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
+          {{else}}
+            <li class="nav-item"><a class="nav-link" href="/Register">Register</a></li>
+            <li class="nav-item"><a class="nav-link" href="/Login">Login</a></li>
+          {{/if}}
+        </ul>
+        </ul>
+      </nav>
+    </header>
+    {{{body}}}
+
+    <footer class="Footer">
+      <p class="Footertext">By: Abdallah Bilal | 200494848 | Javascript Frameworks | </p>
+    </footer>
+  </body>
+</html>

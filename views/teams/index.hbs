@@ -1,0 +1,35 @@
+<h1 class="TeamMain">Teams</h1>
+<p class="Teampara">Welcome to the team page</p>
+
+
+<table id="table">
+  <thead>
+    <th>Team Name</th>
+    <th>Team Coach</th>
+    <th>Team League</th>
+     <th>Action Buttons</th>
+  </thead>
+  <tbody>
+  {{#each dataset}}
+    <tr>
+      <td>{{this.teamname}}</Td>
+      <td>{{this.teamcoach}}</Td>
+      <td>{{this.teamleague}}</Td>
+       {{#if ../user}}
+        <td><a href="/teams/edit/{{this._id}}" 
+      class="btn btn-primary">Edit</a>
+        <a href="/teams/delete/{{this._id}}" 
+      class="btn btn-danger"
+        onclick="return confirmDeletion();">Delete</a></td>
+          {{/if}}
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
+
+<div class="ButtonBack">
+  {{#if user}}
+<a class="TeamAddbutton" href="/teams/add">Add new Team</a>
+{{/if}}
+
+</div>

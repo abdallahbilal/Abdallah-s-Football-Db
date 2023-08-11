@@ -1,0 +1,217 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:darkgray;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.Header{
+  background-color: darkcyan;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 110px;
+  padding: 30px 25px;
+
+  
+}
+
+.MainTitle{
+  color: white;
+}
+
+nav>ul{
+  margin: 0 400px;
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+nav > ul > li:nth-child(1),
+nav > ul > li:nth-child(2),
+nav > ul > li:nth-child(3),
+nav > ul > li:nth-child(4),
+nav > ul > li:nth-child(5){
+  padding-right: 44px;
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul > li >a{
+text-decoration: none;
+color: white;
+}
+
+.IndexTitle{
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  
+}
+
+.IndexPara{
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.AboutMain{
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  
+}
+
+.Aboutpara{
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.TeamMain{
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  
+}
+
+.Teampara{
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+#table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: darkcyan;
+  color: white;
+}
+.btn btn-primary,.btn btn-danger{
+  text-decoration: none;
+  color: black;
+}
+
+.ButtonBack{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  width: 5%;
+  background-color: #f2f2f2;
+  text-align: center;
+  border-radius: 5px;
+}
+.TeamAddbutton{
+ text-decoration: none;
+ color: black;
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Footer{
+  background-color: darkcyan;
+  text-align: center;
+  
+  align-items: center;
+  height: 110px;
+  padding: 30px 25px;
+}
+
+.Footertext{
+  text-align: center;
+  color: white;
+  align-items: center;
+  padding-top: 30px;
+}
